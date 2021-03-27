@@ -4,19 +4,71 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Control Select</title>
+    <title>jQuery</title>
 </head>
 <body>
     <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>Evento Click</h1>
+                <button class="btn btn-dark" id="event-click">Clickeame</button>
+            </div>
+        </div>
+
         <div class="row mt-5">
-            <div class="col-12">
+            <div class="col">
+                <h1>Propiedad Text</h1>
+                <div class="text-center display-6 mb-4" id="my-div"></div>
+                <a name="" id="btn-txt" class="btn btn-dark" href="#" role="button">Colocar Texto</a>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col">
+                <h1>Propiedad Val</h1>
+                <input id="my-form" type="text">
+                <br>
+                <button class="btn btn-dark mt-1" id="btn-steal">Tomar Valor</button>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col">
+                <h1>Control Select</h1>
+                <select id="my-select">
+                    <option disabled>Selecciona un valor</option>
+                    <option value="1">Valor 1</option>
+                    <option default value="2">Valor 2</option>
+                    <option value="3">Valor 3</option>
+                </select>
+                <br>
+                <button class="btn btn-dark mt-1" id="my-btn">Selecciona un Valor</button>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col">
+                <h1>Checkbox</h1>
+                <label for="">Mi check</label>
+                <input type="checkbox" id="my-check">
+                <br>
+                <button id="check" class="btn btn-dark">Comprobar</button>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col">
+                <h1>Radios</h1>
                 <div class="form-group">
                     <label for="">Radius Si</label>
                     <input type="radio" id="rad-si" name="my-rad">
+                    <br>
                     <label for="">Radius No</label>
                     <input type="radio" id="rad-no" name="my-rad">
-                    <button class="btn btn-light" id="my-btn">Comprobar</button>
+                    <br>
+                    <button class="btn btn-dark" id="my-button">Comprobar</button>
                 </div>
+            </div>
         </div>
     </div>
     <script src="js/jquery.js"></script>
