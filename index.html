@@ -4,14 +4,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Campos de texto</title>
+    <title>Control Select</title>
 </head>
 <body>
     <div class="container">
         <div class="row mt-5">
             <div class="col-12">
-                <input id="my-form" type="text">
-                <button class="btn btn-success" id="btn-steal">Tomar Valor</button>
+                <select id="my-select">
+                    <option disabled>Selecciona un valor</option>
+                    <option value="1">Valor 1</option>
+                    <option default value="2">Valor 2</option>
+                    <option value="3">Valor 3</option>
+                </select>
+                <button class="btn btn-warning" id="my-btn">Selecciona un Valor</button>
             </div>
             
         </div>
